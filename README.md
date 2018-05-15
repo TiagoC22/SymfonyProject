@@ -1,5 +1,10 @@
 Symfony Standard Edition
 ========================
+Lien pour la connexion :
+http://localhost/SymfonyProject/web/login
+
+Lien pour l'inscription :
+http://localhost/SymfonyProject/web/register
 
 **WARNING**: This distribution does not support Symfony 4. See the
 [Installing & Setting up the Symfony Framework][15] page to find a replacement
