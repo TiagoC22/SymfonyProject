@@ -1,0 +1,12 @@
+
+parameters:
+    database_host: 127.0.0.2
+    database_port: null
+    database_name: symfony
+    database_user: root
+    database_password: mysql
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: group1@upmc.fr
+    mailer_password: null
+    secret: ThisTokenIsNotSoSecretChangeIt
