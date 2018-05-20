@@ -76,6 +76,30 @@ fos_user:
     from_email:
         address: "group1@upmc.fr"
         sender_name: "group1 FOSUserBundle"
+    registration:
+        confirmation:
+            enabled:    true # change to false to disable registration email confirmation  
+            from_email: 
+                address:        mailresp@gmail.com
+                sender_name:    Responsable
+        form:
+            type: FOS\UserBundle\Form\Type\RegistrationFormType 
+    resetting:
+        token_ttl: 0
+        email:
+            from_email:
+                address:        mailresp@gmail.com
+                sender_name:    Responsable
+    from_email:
+        address: mailresp@gmail.com
+        sender_name: Responsable
+    service:
+            mailer: fos_user.mailer.twig_swift
+
+swiftmailer:
+    transport: "gmail"
+    username:  "mailresp@gmail.com"
+    password:  "xxxxxx"
 
 # app/config/routing.yml
 fos_user:
